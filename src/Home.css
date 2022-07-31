@@ -1,0 +1,54 @@
+.Home {
+  text-align: center;
+  background-color: #fffef9;
+}
+.Title{
+  margin-top: 1rem;
+  /*font-family: justfont;*/
+}
+
+@keyframes text-focus-in {
+  0% {
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+.text-focus-in {
+  animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) ;
+}
+.Motto{
+  font-family: justfont;
+  animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) ;
+}
+.navigation{
+  width: 80%;
+  padding: 20px;
+  border-bottom: solid 3px #a4cab6;
+}
+.navigation:hover {
+  color: #83cbac;
+  border-bottom: solid 3px #83cbac;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.poem{
+  text-align: left;
+  font-family: NotoSerifSC;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

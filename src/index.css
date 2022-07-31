@@ -5,9 +5,23 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  user-select:none;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@font-face {
+  font-family: justfont;
+  src: url("./assets/jf-openhuninn-1.1.ttf");
+}
+@font-face {
+  font-family: TaipeiSansTC;
+  src: url("./assets/TaipeiSansTCBeta-Regular.ttf");
+}
+@font-face {
+  font-family: NotoSerifSC;
+  src: url("./assets/NotoSerifSC-Regular.otf");
 }
