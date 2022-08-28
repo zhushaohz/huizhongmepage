@@ -6,6 +6,7 @@ import React from 'react';
 import  { Link } from "@geist-ui/core";
 
 // const name = 'Huizhong'
+
 function Home() {
   const name = "慧中"
   return (
