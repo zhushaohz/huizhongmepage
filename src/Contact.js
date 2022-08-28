@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Page, Text , Divider , Grid, Card, Link} from '@geist-ui/core'
+import { Page, Text , Link} from '@geist-ui/core'
 import { Github, Mail } from '@geist-ui/icons'
 import './Contact.css';
 function Contact() {

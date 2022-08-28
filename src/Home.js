@@ -1,11 +1,11 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './Home.css';
-import { Button, Page, Text , Divider , Grid, Card , Spacer} from '@geist-ui/core'
+import { Page, Text , Divider , Grid, Card , Spacer} from '@geist-ui/core'
 import React from 'react';
 // import { Link } from "react-router-dom";
 import  { Link } from "@geist-ui/core";
 
-const name = 'Huizhong'
+// const name = 'Huizhong'
 function Home() {
   const name = "慧中"
   return (

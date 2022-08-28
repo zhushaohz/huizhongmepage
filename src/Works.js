@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Page, Text , Divider , Grid, Card} from '@geist-ui/core'
+import { Page, Text } from '@geist-ui/core'
 import './Works.css';
 function Works() {
   return (
